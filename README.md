@@ -3,13 +3,13 @@
 A simple script that can split an audio file (LP/cassete) into smaller audio files, wherever it detects silence for 2 seconds.
 This bash script uses the poweful **soX** (Sound eXchange, the Swiss Army knife of audio manipulation), and the main command comes straight from its man page.
 
-##DEPENDENCIES
+## DEPENDENCIES
 
 To be able to run this script, you need to install sox and zenity :
 
     sudo apt install sox zenity
  
-##INSTALL
+## INSTALL
 
 Change directory to lp_split, and make LP_split.sh executable:
 
@@ -19,7 +19,7 @@ Change directory to lp_split, and make LP_split.sh executable:
 
     chmod  +x  LP_split.sh
 
-##RUN
+## RUN
 
 To run the script from the same directory:
 
